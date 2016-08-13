@@ -1,0 +1,30 @@
+{
+  "name": "ast",
+  "version": "1.0.0",
+  "description": "hexlet lessons",
+  "main": "src/app/solution.js",
+  "scripts": {
+    "test": "mocha src/app/solution.js -w --compilers js:babel-register",
+    "babel": "babel-node srs/app/silution.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximtop/hexlet-ast.git"
+  },
+  "keywords": [
+    "ast",
+    "javascript"
+  ],
+  "author": "Maxim Topciu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximtop/hexlet-ast/issues"
+  },
+  "homepage": "https://github.com/maximtop/hexlet-ast#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-register": "6.11.6",
+    "mocha": "^3.0.2"
+  }
+}
